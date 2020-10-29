@@ -17,6 +17,10 @@ function draw() {
     }
   }
 }
+function keyPressed(){
+  shapes.pop();
+}
+
 function mousePressed() {
   addAShape();
 }
